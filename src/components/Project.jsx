@@ -45,12 +45,12 @@ const Project = () => {
                   <p className="px-2 text-gray-700">{about}</p>
                 </div>
                 <div className="flex justify-around px-6 py-4">
-                  <button className="bg-blue-600 hover:bg-blue-900 rounded-md text-white font-bold px-4 py-2">
+                  <button className="bg-slate-900 hover:bg-white hover:text-black hover:border-2 rounded-md text-white font-bold px-4 py-2">
                     <a href={prev} target={"_blank"}>
                       Preview
                     </a>
                   </button>
-                  <button className="bg-green-600 hover:bg-green-900 rounded-md text-white font-bold px-4 py-2">
+                  <button className="bg-white hover:bg-slate-900 hover:text-white text-black border-2 rounded-md font-bold px-4 py-2">
                     <a href={source} target={"_blank"}>
                       Source Code
                     </a>

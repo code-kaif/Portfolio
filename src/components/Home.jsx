@@ -34,7 +34,7 @@ const Home = () => {
               />
             </div>
             <br />
-            <p className="text-[12px] md:text-[15px] font-medium text-justify">
+            <p className="text-[15px] font-medium text-justify">
               Hello, I'm Kaif, a passionate MERN stack developer with a keen
               interest in crafting robust and scalable web applications. I
               specialize in leveraging the MERN (MongoDB, Express.js, React,
