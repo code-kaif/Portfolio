@@ -13,7 +13,7 @@ const Footer = () => {
             <p className="text-[1rem] font-medium">
               © 2024 All rights reserved.
               <br />
-              Supportive Partner ❤️ Asad, Kuldeep, Aditya
+              Supportive Partners ❤️ Asad, Kuldeep, Aditya
             </p>
           </aside>
           <nav>

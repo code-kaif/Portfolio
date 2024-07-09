@@ -36,7 +36,7 @@ const Contact = () => {
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
       >
         <h1 className="text-left text-3xl font-bold p-5">Contact</h1>
-        <div className="max-w-md mx-auto my-10 bg-white p-6 rounded-md shadow-2xl">
+        <div className="max-w-md mx-auto my-5 bg-white p-6 rounded-md shadow-2xl">
           <form onSubmit={handleSubmit(onSubmit)}>
             <h2 className="text-2xl font-bold mb-4">Send Your Message</h2>
             <div className="mb-4">
