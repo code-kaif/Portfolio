@@ -63,7 +63,7 @@ const Navbar = () => {
       {/* modile navbar */}
       {menu && (
         <div>
-          <ul className="md:hidden h-screen bg-white flex flex-col items-center justify-center space-y-10 text-xl font-medium">
+          <ul className="md:hidden h-[90vh] w-[80%] bg-white flex flex-col items-center justify-center space-y-10 text-xl font-medium">
             {navItem.map(({ id, text }) => (
               <li
                 className="hover:scale-110 duration-200 cursor-pointer font-semibold"

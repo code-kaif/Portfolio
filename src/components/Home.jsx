@@ -8,6 +8,8 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import pic from "../../public/kaif.jpg";
+import cv from "../../public/Kaif_Resume.pdf";
+import "../App.css";
 
 const Home = () => {
   return (
@@ -29,7 +31,7 @@ const Home = () => {
                   "Fullstack Developer",
                 ]}
                 typeSpeed={40}
-                backSpeed={50}
+                backSpeed={40}
                 loop={true}
               />
             </div>
@@ -41,6 +43,13 @@ const Home = () => {
               Node.js) stack to build dynamic user interfaces and seamless
               backend services.
             </p>
+            <br />
+            <button className="px-3 py-2 bg-slate-800 text-white rounded-lg hover:bg-white hover:text-black duration-300 border">
+              <a href={cv} download>
+                Download CV
+              </a>
+            </button>
+            <br />
             <br />
             <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
               <div className="space-y-2">
@@ -87,7 +96,7 @@ const Home = () => {
           <div className="md:w-1/2 md:ml-48 md:mt-10 mt-8 order-1 md:order-2">
             <img
               src={pic}
-              className="rounded-full md:w-[450px] md:h-[450px]"
+              className="rounded-full md:w-[450px] md:h-[450px] bor"
               alt=""
             />
           </div>

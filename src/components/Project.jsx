@@ -1,6 +1,7 @@
 import React from "react";
 import book from "../../public/Banner.png";
 import pic from "../../public/kaif.jpg";
+import map from "../../public/map.jpeg";
 
 const Project = () => {
   const cardItem = [
@@ -20,6 +21,14 @@ const Project = () => {
       prev: "https://kaifprtfolio.netlify.app",
       source: "https://github.com/code-kaif/Portfolio",
     },
+    {
+      id: 3,
+      logo: map,
+      name: "Device Tracking",
+      about: "A real time device tracking app using Nodejs",
+      prev: "https://realtime-device-tracking-bmmb.onrender.com",
+      source: "https://github.com/code-kaif/Realtime-Device-Tracking",
+    },
   ];
   return (
     <>
@@ -29,7 +38,7 @@ const Project = () => {
       >
         <div>
           <h1 className="text-3xl font-semibold mb-5">Projects</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 my-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 my-5">
             {cardItem.map(({ id, logo, name, about, prev, source }) => (
               <div
                 className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300 my-5"
