@@ -44,7 +44,7 @@ const Home = () => {
               backend services.
             </p>
             <br />
-            <button className="px-3 py-2 bg-slate-800 text-white rounded-lg hover:bg-white hover:text-black duration-300 border">
+            <button className="px-4 py-2 bg-slate-900 text-white rounded-full hover:bg-white hover:text-black duration-300 border">
               <a href={cv} download>
                 Download CV
               </a>

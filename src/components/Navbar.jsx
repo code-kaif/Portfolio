@@ -39,10 +39,7 @@ const Navbar = () => {
         <div>
           <ul className=" hidden md:flex font-medium space-x-8 text-[1rem]">
             {navItem.map(({ id, text }) => (
-              <li
-                className="hover:scale-110 duration-200 cursor-pointer"
-                key={id}
-              >
+              <li className="hover:scale-110 duration-200" key={id}>
                 <Link
                   to={text}
                   duration={500}
