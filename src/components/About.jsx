@@ -26,11 +26,11 @@ const About = () => {
             authentication and authorization.
           </p>
           <br />
-          <h1 className="text-green-700 font-semibold text-xl">Eduation</h1>
+          <h1 className="text-black font-semibold text-xl">Eduation</h1>
           <span>[BCA], [3rd Year], [University of Rajsthan]</span>
           <br />
           <br />
-          <h1 className="text-green-700 font-semibold text-xl">
+          <h1 className="text-black font-semibold text-xl">
             Skills & Expertise
           </h1>
           <span>
@@ -40,7 +40,7 @@ const About = () => {
           </span>
           <br />
           <br />
-          <h1 className="text-green-700 font-semibold text-xl">
+          <h1 className="text-black font-semibold text-xl">
             Mission Statement
           </h1>
           <span>

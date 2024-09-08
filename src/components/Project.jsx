@@ -33,7 +33,7 @@ const Project = () => {
   return (
     <>
       <div
-        name="Project"
+        name="Projects"
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-20"
       >
         <div>
