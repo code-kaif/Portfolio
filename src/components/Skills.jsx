@@ -7,6 +7,10 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
+import { SiTypescript } from "react-icons/si";
+import { FaPhp } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
 
 const Skills = () => {
   const cardItem = [
@@ -47,6 +51,26 @@ const Skills = () => {
     },
     {
       id: 8,
+      logo: <GrMysql />,
+      name: "My Sql",
+    },
+    {
+      id: 9,
+      logo: <SiTypescript />,
+      name: "TypeScript",
+    },
+    {
+      id: 10,
+      logo: <FaPhp />,
+      name: "PHP",
+    },
+    {
+      id: 11,
+      logo: <SiRedux />,
+      name: "Redux Toolkit",
+    },
+    {
+      id: 12,
       logo: <FaGithub />,
       name: "GitHub",
     },

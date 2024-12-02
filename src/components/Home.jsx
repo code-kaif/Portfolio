@@ -8,7 +8,7 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import pic from "../../public/kaif.jpg";
-import cv from "../../public/Kaif_Resume.pdf";
+import cv from "../../public/resume.pdf.pdf";
 import "../App.css";
 
 const Home = () => {

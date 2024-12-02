@@ -2,11 +2,20 @@ import React from "react";
 import book from "../../public/Banner.png";
 import pic from "../../public/kaif.jpg";
 import map from "../../public/map.jpeg";
+import imagify from "../../public/logo.svg";
 
 const Project = () => {
   const cardItem = [
     {
       id: 1,
+      logo: imagify,
+      name: "Text to Image Generator",
+      about: "Generate AI-powered images based on custom text prompts ",
+      prev: "https://texttoimagegen.onrender.com/",
+      source: "https://github.com/code-kaif/AiTextToImageGenerator",
+    },
+    {
+      id: 2,
       logo: book,
       name: "Book Store",
       about: "A book store using Mern Stack with Fully Authentication",
@@ -14,7 +23,7 @@ const Project = () => {
       source: "https://github.com/code-kaif/BookApp",
     },
     {
-      id: 2,
+      id: 3,
       logo: pic,
       name: "Portfolio",
       about: "Personal Portfolio using React and GetForm",
@@ -22,7 +31,7 @@ const Project = () => {
       source: "https://github.com/code-kaif/Portfolio",
     },
     {
-      id: 3,
+      id: 4,
       logo: map,
       name: "Device Tracking",
       about: "A real time device tracking app using Nodejs",
